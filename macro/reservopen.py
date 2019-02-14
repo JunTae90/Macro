@@ -5,8 +5,8 @@ from time import sleep
 chrome_PATH = 'chromedriver_win32\chromedriver.exe'  # 크롬드라이버 경로
 
 win = 1
-saveID = 'gustcool2'
-savePWD = 'Vhql908034#$'
+saveID = ''
+savePWD = ''
 addr = 'http://ticket.yes24.com/Pages/Perf/Detail/DetailSpecial.aspx?IdPerf=32307'
 addr2 = 'http://ticket.yes24.com/Pages/Perf/Detail/DetailSpecial.aspx?IdPerf=32317'
 

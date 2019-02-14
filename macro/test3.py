@@ -9,8 +9,8 @@ chrome_PATH = 'chromedriver_win32\chromedriver.exe'
 a = []
 
 def driver_get(driver):
-    saveID = 'gustcool2'
-    savePWD = 'Vhql908034#$'
+    saveID = ''
+    savePWD = ''
     addr = 'http://ticket.yes24.com/Pages/Perf/Detail/Detail.aspx?IdPerf=32206&Gcode=009_109'
     chrome_PATH = 'chromedriver_win32\chromedriver.exe'
     driver = webdriver.Chrome(chrome_PATH)

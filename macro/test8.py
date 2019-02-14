@@ -5,8 +5,8 @@ chrome_PATH = 'chromedriver_win32\chromedriver.exe'
 driver = webdriver.Chrome(chrome_PATH)
 
 driver.get('https://www.yes24.com/Templates/FTLogin.aspx')
-driver.find_element_by_name('SMemberID').send_keys('gustcool2')
-driver.find_element_by_name('SMemberPassword').send_keys('Vhql908034#$')
+driver.find_element_by_name('SMemberID').send_keys('')
+driver.find_element_by_name('SMemberPassword').send_keys('')
 driver.find_element_by_id('btnLogin').click()
 driver.get('http://ticket.yes24.com/Pages/Perf/Detail/DetailSpecial.aspx?IdPerf=32372')
 driver.find_element_by_xpath('//*[@id="divSale"]/a[3]').click()
